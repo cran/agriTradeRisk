@@ -1,0 +1,40 @@
+Package: agriTradeRisk
+Type: Package
+Title: Agricultural Export Competitiveness and Risk Analysis
+Version: 0.1.0
+Authors@R: 
+    person("Anbukkani", "Perumal", email = "anbueconomic@gmail.com",
+           role = c("aut", "cre", "cph"))
+Description: An integrated and reproducible workflow for analysing the
+    competitiveness and risk of agricultural and horticultural exports. It
+    measures destination and product concentration (Herfindahl-Hirschman,
+    entropy and equivalent-number indices), revealed comparative advantage
+    (Balassa, 1965) <doi:10.1111/j.1467-9957.1965.tb00050.x> and its
+    symmetric form, relative unit values, and constant market share
+    decomposition of export growth. It tests vertical price transmission
+    between export and domestic prices with Engle-Granger cointegration
+    (Engle and Granger, 1987) <doi:10.2307/1913236> using MacKinnon (2010)
+    critical values and symmetric or asymmetric error correction models. It
+    quantifies exchange-rate exposure of a multi-currency export portfolio
+    (volatility, diversification ratio, risk contributions and value at
+    risk), screens destination markets with composite entry-risk scores,
+    and identifies risk-efficient destination mixes by mean-variance
+    portfolio optimisation (Markowitz, 1952) <doi:10.2307/2975974>.
+    Simulated example data for Indian mango, grape, pomegranate and
+    processed horticultural exports illustrate the workflow.
+License: GPL (>= 3)
+Encoding: UTF-8
+Language: en-GB
+LazyData: true
+Depends: R (>= 3.5.0)
+Imports: graphics, stats
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1
+NeedsCompilation: no
+Packaged: 2026-10-15 09:10:53 UTC; root
+Author: Anbukkani Perumal [aut, cre, cph]
+Maintainer: Anbukkani Perumal <anbueconomic@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-10-24 11:50:02 UTC
